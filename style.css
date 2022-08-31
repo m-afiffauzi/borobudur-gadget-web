@@ -83,7 +83,7 @@ nav .container-fluid .navbar-brand {
     padding-top: 20%;
   }
   .shop {
-    margin: 10% 7% 10% 7%;
+    margin: 0% 7%;
     padding-top: 10%;
   }
   .contact {
@@ -95,49 +95,28 @@ nav .container-fluid .navbar-brand {
 }
 @media screen and (max-width: 576px) {
   .hero {
-    margin: 10% 7%;
-    padding-top: 45%;
-    padding-bottom: 10%;
-  }
-  .about {
-    margin: 30% 7%;
-    padding-top: 50%;
-  }
-  .review {
-    padding-top: 30%;
-  }
-  .shop {
-    margin: 10% 7% 10% 7%;
-    padding-top: 50%;
-  }
-  .contact {
-    margin: 0% 7% 0 7%;
-    padding-top: 10%;
-  }
-  .footer {
     margin: 0% 7%;
-    font-size: 6px;
-  }
-}
-@media screen and (max-width: 380px) {
-  .hero {
-    margin: 5% 7%;
-    padding-top: 50%;
-    padding-bottom: 10%;
+    padding-top: 35%;
+    padding-bottom: 40%;
   }
   .about {
-    margin: 5% 7%;
-    padding-top: 40%;
+    margin: 0% 7%;
+    padding-top: 30%;
+    padding-bottom: 40%;
   }
   .review {
-    padding-top: 30%;
+    padding-top: 20%;
+    padding-bottom: 20%;
   }
   .shop {
-    margin: 10% 7% 10% 7%;
-    padding-top: 40%;
+    margin: 5% 7%;
+    padding-top: 30%;
+    padding-bottom: 40%;
   }
   .contact {
-    margin: 0% 7% 0 7%;
+    margin: 0 7%;
+    padding-top: 30%;
+    padding-bottom: 50%;
   }
   .footer {
     margin: 0% 7%;
