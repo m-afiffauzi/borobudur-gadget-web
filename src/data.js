@@ -221,12 +221,12 @@ export const contact = {
       href: "https://www.facebook.com/goesthcwg.thcwg",
     },
     {
-      text: "Whatsapp",
-      href: "https://api.whatsapp.com/send/?phone=6282138351343&text=BOROBUDUR+GADGET",
+      text: "Instagram",
+      href: "https://www.instagram.com/grosir.electronik_magelang/",
     },
     {
-      text: "Instagram",
-      href: "https://www.instagram.com/direct/t/17845248614301839",
+      text: "Whatsapp",
+      href: "https://api.whatsapp.com/send/?phone=6282138351343",
     },
   ],
 };
