@@ -20,12 +20,12 @@ const NavMobile = ({ navMobile, setNavMobile }) => {
         })}
         {/* button */}
         <div className="flex justify-center gap-x-8">
-          <a
-            onClick={() => setNavMobile(!navMobile)}
-            href="#contact"
-            className="btn btn-sm btn-primary"
-          >
-            Kontak
+          <a href="#contact" onClick={() => setNavMobile(!navMobile)}>
+            <button className="bg-primary-200 btn-sm rounded-sm group [transform:translateZ(0)] px-6 py-3overflow-hidden relative before:absolute before:bg-white before:bottom-0 before:left-0 before:h-full before:w-full before:rounded-sm before:origin-[100%_100%] before:scale-x-0 hover:before:origin-[0_0] hover:before:scale-x-100 before:transition before:ease-in-out before:duration-300">
+              <span className="text-white group-hover:text-neutral-500 relative z-0 transition ease-in-out duration-300">
+                Kontak
+              </span>
+            </button>
           </a>
         </div>
       </ul>

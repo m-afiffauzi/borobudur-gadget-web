@@ -184,33 +184,29 @@ export const faq = {
   title: "FAQ",
   accordions: [
     {
-      question: "Tokonya ada di mana min?",
-      answer: "https://goo.gl/maps/YdouzFyyTEgUkcCPA",
+      question: "Toko offlinenya ada di mana min?",
+      answer:
+        "Toko offline kami berada di Dusun Sodongan, Desa Bumiharjo, Kecamatan Borobudur, Kabupaten Magelang, Jawa Tengah, 56553. Atau bisa klik link google maps ",
+      link: "https://goo.gl/maps/YdouzFyyTEgUkcCPA",
     },
     {
-      question: "Can I pay by cash for my membership?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+      question: "Buka jam berapa min?",
+      answer: "Kami buka setiap hari 24 jam non-stop.",
     },
     {
-      question: "What age do I need to be to join?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+      question: "Bisa COD min?",
+      answer: "Kami melayani COD di daerah Magelang dan sekitarnya.",
     },
     {
-      question: "Are there any lockers?",
+      question: "Bagaimana cara klaim garansi min?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "Untuk garansi bisa diklaim melalui service center masing-masing produk.",
     },
     {
-      question: "How do I cancel my membership?",
+      question: "Jadwal pengiriman bagaimana min?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
-    },
-    {
-      question: "Is there water available at the gym?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "Kami melakukan pengiriman setiap hari untuk ekspedisi tertentu. Jadwal lengkap bisa cek melalui link ",
+      link: "https://images.tokopedia.net/img/cache/1200/BgtCLw/2021/11/13/faaddb01-faa0-404c-88ff-97f625ebf326.jpg.webp?ect=4g",
     },
   ],
 };

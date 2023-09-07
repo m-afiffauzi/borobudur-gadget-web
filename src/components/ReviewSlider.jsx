@@ -6,9 +6,15 @@ const ReviewSlider = ({ testimonials }) => {
   return (
     <Swiper
       slidesPerView={3}
+      centeredSlides={true}
       spaceBetween={32}
       grabCursor={true}
-      centeredSlides={true}
+      breakpoints={{
+        768: {
+          slidesPerView: 3,
+          centeredSlides: false,
+        },
+      }}
       modules={[]}
     >
       {testimonials.map((testimonial, index) => {
