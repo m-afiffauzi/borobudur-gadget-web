@@ -2,7 +2,7 @@ import { nav } from "../data";
 
 const Nav = () => {
   return (
-    <nav className="hidden lg:flex">
+    <nav className="hidden md:flex">
       <ul className="flex text-white gap-x-8">
         {nav.map((item) => {
           return (

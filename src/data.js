@@ -184,9 +184,9 @@ export const faq = {
   title: "FAQ",
   accordions: [
     {
-      question: "Toko offlinenya ada di mana min?",
+      question: "Tokonya ada di mana min?",
       answer:
-        "Toko offline kami berada di Dusun Sodongan, Desa Bumiharjo, Kecamatan Borobudur, Kabupaten Magelang, Jawa Tengah, 56553. Atau bisa klik link google maps ",
+        "Toko kami berada di Dusun Sodongan, Desa Bumiharjo, Kec. Borobudur, Kab. Magelang, Jawa Tengah, 56553. Atau bisa klik link google maps ",
       link: "https://goo.gl/maps/YdouzFyyTEgUkcCPA",
     },
     {

@@ -22,7 +22,7 @@ const Accordion = ({ accordion }) => {
             isOpen ? "min-h-[160px] lg:min-h-[100px]" : "min-h-0"
           } max-h-0 overflow-hidden w-full transition-all px-[30px] text-start`}
         >
-          <div className="mt-6">
+          <div className="my-3">
             {answer}
             {link ? (
               <a

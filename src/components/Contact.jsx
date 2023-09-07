@@ -5,17 +5,17 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-[537px] bg-neutral-500"
+      className="min-h-[537px] bg-neutral-500 pb-4"
       data-aos="fade-up"
       data-aos-offset="200"
       data-aos-delay="100"
     >
       <div className="container mx-auto">
         {/* image & text wrapper */}
-        <div className="flex flex-col md:flex-row md:items-center md:-space-x-12 -space-y-24 lg:-space-y-0">
+        <div className="flex flex-col md:flex-row items-center -space-y-24 lg:-space-y-0">
           {/* image */}
           <div
-            className="-mt-[80px] max-w-[276px] md:max-w-[442px]"
+            className="max-w-[276px] md:max-w-[442px]"
             data-aos="fade-right"
             data-aos-offset="100"
             data-aos-delay="200"
@@ -33,7 +33,7 @@ const Contact = () => {
             data-aos-offset="200"
             data-aos-delay="300"
           >
-            <h2 className="h1 md:text-[60px] md:leading-[62px] mb-4 lg:mb-6 text-white">
+            <h2 className="h1 lg:text-[60px] md:leading-[62px] mb-4 lg:mb-6 text-white">
               Ingin tahu <span className="text-primary-200">informasi</span>{" "}
               lebih lanjut?
             </h2>

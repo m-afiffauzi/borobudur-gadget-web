@@ -3,11 +3,17 @@ import { banner } from "../data";
 const Banner = () => {
   const { titlePart1, titlePart2, subtitle, textBtn } = banner;
   return (
-    <section id="banner" className="bg-neutral-500 h-[820px]">
-      <div className="container mx-auto h-full">
-        <div className="flex items-center h-full relative -space-x-48 lg:-space-x-24">
+    <section
+      id="banner"
+      className="bg-neutral-500 h-[820px]"
+      data-aos="fade-down"
+      data-aos-delay="100"
+    >
+      <div className="container mx-auto h-full relative">
+        <div className="absolute bg-banner lg:hidden bg-cover bg-center bg-no-repeat w-full h-full -z-10 grayscale"></div>
+        <div className="flex items-center h-full relative -space-x-96 lg:-space-x-0">
           {/* text */}
-          <div className="text-white flex-1 z-10 pl-6 lg:pl-0">
+          <div className="text-white flex-1 z-10 px-4 lg:px-0">
             <h1
               className="h1 text-white mb-8"
               data-aos="fade-down"
@@ -17,7 +23,7 @@ const Banner = () => {
               <span className="text-primary-200">{titlePart2}</span>
             </h1>
             <p
-              className="max-w-[415px] text-body-md lg:text-body-lg mb-8"
+              className="max-w-[310px] xs:max-w-[455px] text-body-md lg:text-body-lg mb-8"
               data-aos="fade-down"
               data-aos-delay="600"
             >
@@ -33,7 +39,7 @@ const Banner = () => {
           </div>
           {/* image */}
           <div
-            className="bg-blue-300 w-full h-full bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1"
+            className="hidden lg:block bg-banner w-full h-full bg-cover bg-center bg-no-repeat flex-1 grayscale"
             data-aos="fade-right"
             data-aos-delay="900"
           ></div>
