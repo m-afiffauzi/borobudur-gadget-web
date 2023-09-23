@@ -3,12 +3,7 @@ import { footer } from "../data";
 const Footer = () => {
   const { brand, copyrightTextStart, copyrightTextEnd } = footer;
   return (
-    <footer
-      className="bg-neutral-500 h-[125px] px-[20px]"
-      data-aos="fade-up"
-      data-aos-offset="100"
-      data-aos-delay="100"
-    >
+    <footer className="bg-neutral-500 h-[125px] px-[20px]">
       <div className="container mx-auto h-full flex flex-col md:flex-row justify-center md:justify-between items-center md:items-end md:pb-[50px]">
         {/* copyright text start */}
         <p className="text-neutral-300 text-sm">

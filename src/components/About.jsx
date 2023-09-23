@@ -19,7 +19,7 @@ const About = () => {
         </div>
         {/* subtitle 1*/}
         <p
-          className="md:text-body-md mb-12"
+          className="md:text-body-md mb-6"
           data-aos="fade-up"
           data-aos-delay="200"
         >
@@ -27,7 +27,7 @@ const About = () => {
         </p>
         {/* subtitle 2*/}
         <p
-          className="md:text-body-md mb-12"
+          className="md:text-body-md mb-6"
           data-aos="fade-up"
           data-aos-delay="200"
         >
@@ -36,7 +36,7 @@ const About = () => {
         {/* link */}
         <div data-aos="fade-up" data-aos-delay="200">
           <a
-            className="link flex items-center gap-x-4 hover:gap-x-6 transition-all"
+            className="link flex items-center gap-x-1 hover:gap-x-4 transition-all duration-300 ease-in-out"
             href="#shop"
           >
             {link}

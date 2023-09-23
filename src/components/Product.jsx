@@ -17,7 +17,7 @@ const Product = () => {
         </h2>
       </div>
       {/* slider */}
-      <div data-aos="fade-up" data-aos-delay="300">
+      <div className="px-1" data-aos="fade-up" data-aos-delay="300">
         <ProductSlider />
       </div>
     </section>

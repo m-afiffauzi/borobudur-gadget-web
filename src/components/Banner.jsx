@@ -30,7 +30,7 @@ const Banner = () => {
               {subtitle}
             </p>
             <a href="#shop" data-aos="fade-down" data-aos-delay="700">
-              <button className="bg-white btn-sm lg:btn-lg rounded-sm group [transform:translateZ(0)] px-6 py-3overflow-hidden relative before:absolute before:bg-primary-200 before:bottom-0 before:left-0 before:h-full before:w-full before:rounded-sm before:origin-[100%_100%] before:scale-x-0 hover:before:origin-[0_0] hover:before:scale-x-100 before:transition before:ease-in-out before:duration-300">
+              <button className="bg-white btn-sm lg:btn-lg rounded-sm group [transform:translateZ(0)] px-6 py-3 overflow-hidden relative before:absolute before:bg-primary-200 before:bottom-0 before:left-0 before:h-full before:w-full before:rounded-sm before:origin-[100%_100%] before:scale-x-0 hover:before:origin-[0_0] hover:before:scale-x-100 before:transition before:ease-in-out before:duration-300">
                 <span className="text-neutral-500 group-hover:text-white relative z-0 transition ease-in-out duration-300">
                   {textBtn}
                 </span>

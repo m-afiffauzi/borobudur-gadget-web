@@ -2,7 +2,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
-import "../productSlider.css";
 import { product } from "../data";
 
 const ProductSlider = () => {
@@ -11,7 +10,7 @@ const ProductSlider = () => {
     <Swiper
       slidesPerView={1.5}
       spaceBetween={32}
-      navigation={true}
+      grabCursor={true}
       breakpoints={{
         768: {
           slidesPerView: 3,
@@ -21,14 +20,13 @@ const ProductSlider = () => {
         },
       }}
       modules={[Navigation]}
-      className="productSlider"
     >
       {types.map((type) => {
         const { image, name } = type;
         return (
           <SwiperSlide
             key={name}
-            className="max-w-xs max-h-80 relative border-2 border-neutral-500"
+            className="max-w-xs h-50 relative border-2 border-neutral-500"
           >
             <img
               src={image}
